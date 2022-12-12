@@ -17,6 +17,11 @@ struct ReadinTextWithTextField: View {
         Form {
             Section {
                 TextField ("Amount", value: $checkAmount, format: .currency(code: Locale.current.currencyCode ?? "JPY"))
+                    .keyboardType(.decimalPad)
+            }
+            
+            Section {
+                Text(checkAmount, format: .currency(code: Locale.current.currencyCode ?? "USD"))
             }
         }
     }

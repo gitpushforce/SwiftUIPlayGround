@@ -11,7 +11,7 @@ import SwiftUI
 struct swiftuiplaygroundApp: App {
     var body: some Scene {
         WindowGroup {
-            ReadinTextWithTextField()
+            ToolbarSampleView()
         }
     }
 }

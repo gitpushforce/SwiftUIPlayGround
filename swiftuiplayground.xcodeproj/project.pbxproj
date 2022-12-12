@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9601B4972944C7BD00C555C6 /* SizeClassesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B4962944C7BD00C555C6 /* SizeClassesView.swift */; };
+		9601B49929453EA700C555C6 /* ModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B49829453EA700C555C6 /* ModifierView.swift */; };
+		9601B49B2945485500C555C6 /* CallAndMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B49A2945485500C555C6 /* CallAndMessageView.swift */; };
+		9601B49D2945DE1200C555C6 /* ShowHideKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B49C2945DE1200C555C6 /* ShowHideKeyboardView.swift */; };
+		9601B4C029472F5D00C555C6 /* ModalLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B4BF29472F5D00C555C6 /* ModalLauncher.swift */; };
+		9601B4C229472F7000C555C6 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B4C129472F7000C555C6 /* ModalView.swift */; };
+		9601B4C429478E1000C555C6 /* NavigationViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B4C329478E1000C555C6 /* NavigationViewMain.swift */; };
+		9601B4C7294791DB00C555C6 /* NavigationViewNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B4C6294791DB00C555C6 /* NavigationViewNext.swift */; };
+		9601B4C92947957600C555C6 /* NavigationViewThird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B4C82947957600C555C6 /* NavigationViewThird.swift */; };
+		9601B4CB2947A91400C555C6 /* ToolbarSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B4CA2947A91400C555C6 /* ToolbarSampleView.swift */; };
+		9601B4CE2947BE5F00C555C6 /* Toolbar2ndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B4CD2947BE5F00C555C6 /* Toolbar2ndView.swift */; };
+		9601B4D02947C8C800C555C6 /* ToolBar3rdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B4CF2947C8C800C555C6 /* ToolBar3rdView.swift */; };
 		961DA6B027F9AC4D00A47A10 /* swiftuiplaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961DA6AF27F9AC4D00A47A10 /* swiftuiplaygroundApp.swift */; };
 		961DA6B227F9AC4D00A47A10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961DA6B127F9AC4D00A47A10 /* ContentView.swift */; };
 		961DA6B427F9AC4E00A47A10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961DA6B327F9AC4E00A47A10 /* Assets.xcassets */; };
@@ -18,6 +30,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9601B4962944C7BD00C555C6 /* SizeClassesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeClassesView.swift; sourceTree = "<group>"; };
+		9601B49829453EA700C555C6 /* ModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierView.swift; sourceTree = "<group>"; };
+		9601B49A2945485500C555C6 /* CallAndMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallAndMessageView.swift; sourceTree = "<group>"; };
+		9601B49C2945DE1200C555C6 /* ShowHideKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHideKeyboardView.swift; sourceTree = "<group>"; };
+		9601B4BF29472F5D00C555C6 /* ModalLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalLauncher.swift; sourceTree = "<group>"; };
+		9601B4C129472F7000C555C6 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		9601B4C329478E1000C555C6 /* NavigationViewMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewMain.swift; sourceTree = "<group>"; };
+		9601B4C6294791DB00C555C6 /* NavigationViewNext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewNext.swift; sourceTree = "<group>"; };
+		9601B4C82947957600C555C6 /* NavigationViewThird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewThird.swift; sourceTree = "<group>"; };
+		9601B4CA2947A91400C555C6 /* ToolbarSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarSampleView.swift; sourceTree = "<group>"; };
+		9601B4CD2947BE5F00C555C6 /* Toolbar2ndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar2ndView.swift; sourceTree = "<group>"; };
+		9601B4CF2947C8C800C555C6 /* ToolBar3rdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBar3rdView.swift; sourceTree = "<group>"; };
 		961DA6AC27F9AC4D00A47A10 /* swiftuiplayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiplayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		961DA6AF27F9AC4D00A47A10 /* swiftuiplaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiplaygroundApp.swift; sourceTree = "<group>"; };
 		961DA6B127F9AC4D00A47A10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +64,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9601B4BE2947260D00C555C6 /* modalView */ = {
+			isa = PBXGroup;
+			children = (
+				9601B4BF29472F5D00C555C6 /* ModalLauncher.swift */,
+				9601B4C129472F7000C555C6 /* ModalView.swift */,
+			);
+			path = modalView;
+			sourceTree = "<group>";
+		};
+		9601B4C52947910100C555C6 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				9601B4C329478E1000C555C6 /* NavigationViewMain.swift */,
+				9601B4C6294791DB00C555C6 /* NavigationViewNext.swift */,
+				9601B4C82947957600C555C6 /* NavigationViewThird.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		9601B4CC2947BD8D00C555C6 /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				9601B4CA2947A91400C555C6 /* ToolbarSampleView.swift */,
+				9601B4CD2947BE5F00C555C6 /* Toolbar2ndView.swift */,
+				9601B4CF2947C8C800C555C6 /* ToolBar3rdView.swift */,
+			);
+			path = Toolbar;
+			sourceTree = "<group>";
+		};
 		961DA6A327F9AC4D00A47A10 = {
 			isa = PBXGroup;
 			children = (
@@ -78,11 +131,18 @@
 		961DA6C127F9F88A00A47A10 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				9601B4CC2947BD8D00C555C6 /* Toolbar */,
+				9601B4C52947910100C555C6 /* Navigation */,
+				9601B4BE2947260D00C555C6 /* modalView */,
 				961DA6BF27F9F87F00A47A10 /* TextFieldsView.swift */,
 				961DA6BD27F9DF3000A47A10 /* TapCountView.swift */,
 				961DA6B127F9AC4D00A47A10 /* ContentView.swift */,
 				961DA6C227F9FEDA00A47A10 /* PickerWithList.swift */,
 				961DA6C427FA136500A47A10 /* ReadinTextWithTextField.swift */,
+				9601B4962944C7BD00C555C6 /* SizeClassesView.swift */,
+				9601B49829453EA700C555C6 /* ModifierView.swift */,
+				9601B49A2945485500C555C6 /* CallAndMessageView.swift */,
+				9601B49C2945DE1200C555C6 /* ShowHideKeyboardView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -158,11 +218,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				961DA6BE27F9DF3000A47A10 /* TapCountView.swift in Sources */,
+				9601B4C029472F5D00C555C6 /* ModalLauncher.swift in Sources */,
+				9601B4CB2947A91400C555C6 /* ToolbarSampleView.swift in Sources */,
 				961DA6C527FA136500A47A10 /* ReadinTextWithTextField.swift in Sources */,
+				9601B4972944C7BD00C555C6 /* SizeClassesView.swift in Sources */,
+				9601B4CE2947BE5F00C555C6 /* Toolbar2ndView.swift in Sources */,
 				961DA6B227F9AC4D00A47A10 /* ContentView.swift in Sources */,
+				9601B49D2945DE1200C555C6 /* ShowHideKeyboardView.swift in Sources */,
+				9601B4C229472F7000C555C6 /* ModalView.swift in Sources */,
 				961DA6C027F9F87F00A47A10 /* TextFieldsView.swift in Sources */,
 				961DA6C327F9FEDA00A47A10 /* PickerWithList.swift in Sources */,
+				9601B4C92947957600C555C6 /* NavigationViewThird.swift in Sources */,
+				9601B4C429478E1000C555C6 /* NavigationViewMain.swift in Sources */,
+				9601B49B2945485500C555C6 /* CallAndMessageView.swift in Sources */,
+				9601B4D02947C8C800C555C6 /* ToolBar3rdView.swift in Sources */,
+				9601B4C7294791DB00C555C6 /* NavigationViewNext.swift in Sources */,
 				961DA6B027F9AC4D00A47A10 /* swiftuiplaygroundApp.swift in Sources */,
+				9601B49929453EA700C555C6 /* ModifierView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
