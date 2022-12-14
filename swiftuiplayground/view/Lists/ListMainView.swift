@@ -12,12 +12,12 @@ struct ListMainView: View {
         NavigationView {
             List(listData) {
                 item in
-                
-                HStack {
-                    emoji(emoji: item)
-                    Text(item.name)
+                NavigationLink (destination: DetailsView (items: item)) {
+                    HStack {
+                        emoji(emoji: item)
+                        Text(item.name).font(.subheadline)
+                    }
                 }
-                
             }.navigationTitle("data list")
         }
     }
@@ -36,9 +36,6 @@ struct emoji: View {
         }
     }
 }
-
-
-
 
 struct ListMainView_Previews: PreviewProvider {
     static var previews: some View {

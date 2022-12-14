@@ -25,6 +25,8 @@
 		9609C3622948BB3100CA0E93 /* TabView1stView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609C3612948BB3100CA0E93 /* TabView1stView.swift */; };
 		9609C36529494F1D00CA0E93 /* ListMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609C36429494F1D00CA0E93 /* ListMainView.swift */; };
 		9609C36829494F6500CA0E93 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609C36729494F6500CA0E93 /* Model.swift */; };
+		9609C36A294A503D00CA0E93 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609C369294A503D00CA0E93 /* DetailsView.swift */; };
+		9609C36D294A636800CA0E93 /* GridList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609C36C294A636800CA0E93 /* GridList.swift */; };
 		961DA6B027F9AC4D00A47A10 /* swiftuiplaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961DA6AF27F9AC4D00A47A10 /* swiftuiplaygroundApp.swift */; };
 		961DA6B227F9AC4D00A47A10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961DA6B127F9AC4D00A47A10 /* ContentView.swift */; };
 		961DA6B427F9AC4E00A47A10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961DA6B327F9AC4E00A47A10 /* Assets.xcassets */; };
@@ -54,6 +56,8 @@
 		9609C3612948BB3100CA0E93 /* TabView1stView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView1stView.swift; sourceTree = "<group>"; };
 		9609C36429494F1D00CA0E93 /* ListMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMainView.swift; sourceTree = "<group>"; };
 		9609C36729494F6500CA0E93 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9609C369294A503D00CA0E93 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		9609C36C294A636800CA0E93 /* GridList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridList.swift; sourceTree = "<group>"; };
 		961DA6AC27F9AC4D00A47A10 /* swiftuiplayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiplayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		961DA6AF27F9AC4D00A47A10 /* swiftuiplaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiplaygroundApp.swift; sourceTree = "<group>"; };
 		961DA6B127F9AC4D00A47A10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -119,8 +123,8 @@
 		9609C36329494EF900CA0E93 /* Lists */ = {
 			isa = PBXGroup;
 			children = (
-				9609C36629494F3C00CA0E93 /* model */,
 				9609C36429494F1D00CA0E93 /* ListMainView.swift */,
+				9609C369294A503D00CA0E93 /* DetailsView.swift */,
 			);
 			path = Lists;
 			sourceTree = "<group>";
@@ -131,6 +135,14 @@
 				9609C36729494F6500CA0E93 /* Model.swift */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		9609C36B294A633B00CA0E93 /* Grids */ = {
+			isa = PBXGroup;
+			children = (
+				9609C36C294A636800CA0E93 /* GridList.swift */,
+			);
+			path = Grids;
 			sourceTree = "<group>";
 		};
 		961DA6A327F9AC4D00A47A10 = {
@@ -152,6 +164,7 @@
 		961DA6AE27F9AC4D00A47A10 /* swiftuiplayground */ = {
 			isa = PBXGroup;
 			children = (
+				9609C36629494F3C00CA0E93 /* model */,
 				961DA6C127F9F88A00A47A10 /* view */,
 				961DA6AF27F9AC4D00A47A10 /* swiftuiplaygroundApp.swift */,
 				961DA6B327F9AC4E00A47A10 /* Assets.xcassets */,
@@ -171,6 +184,7 @@
 		961DA6C127F9F88A00A47A10 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				9609C36B294A633B00CA0E93 /* Grids */,
 				9609C36329494EF900CA0E93 /* Lists */,
 				9609C35A2948B9C100CA0E93 /* TabView */,
 				9601B4CC2947BD8D00C555C6 /* Toolbar */,
@@ -262,6 +276,7 @@
 				961DA6BE27F9DF3000A47A10 /* TapCountView.swift in Sources */,
 				9601B4C029472F5D00C555C6 /* ModalLauncher.swift in Sources */,
 				9601B4CB2947A91400C555C6 /* ToolbarSampleView.swift in Sources */,
+				9609C36D294A636800CA0E93 /* GridList.swift in Sources */,
 				961DA6C527FA136500A47A10 /* ReadinTextWithTextField.swift in Sources */,
 				9609C35E2948BA5500CA0E93 /* TabView2ndView.swift in Sources */,
 				9601B4972944C7BD00C555C6 /* SizeClassesView.swift in Sources */,
@@ -270,6 +285,7 @@
 				961DA6B227F9AC4D00A47A10 /* ContentView.swift in Sources */,
 				9609C3622948BB3100CA0E93 /* TabView1stView.swift in Sources */,
 				9601B49D2945DE1200C555C6 /* ShowHideKeyboardView.swift in Sources */,
+				9609C36A294A503D00CA0E93 /* DetailsView.swift in Sources */,
 				9601B4C229472F7000C555C6 /* ModalView.swift in Sources */,
 				9609C35C2948B9D700CA0E93 /* TabViewMain.swift in Sources */,
 				961DA6C027F9F87F00A47A10 /* TextFieldsView.swift in Sources */,
