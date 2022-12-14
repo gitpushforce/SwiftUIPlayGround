@@ -9,16 +9,19 @@ import SwiftUI
 
 struct ListMainView: View {
     var body: some View {
-        List(listData) {
-            item in
-            
-            HStack {
-                emoji(emoji: item)
-                Text(item.name)
-            }
-            
-        }.navigationTitle("data list")
+        NavigationView {
+            List(listData) {
+                item in
+                
+                HStack {
+                    emoji(emoji: item)
+                    Text(item.name)
+                }
+                
+            }.navigationTitle("data list")
+        }
     }
+        
 }
 
 struct emoji: View {
