@@ -37,6 +37,12 @@
 		961DA6C027F9F87F00A47A10 /* TextFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961DA6BF27F9F87F00A47A10 /* TextFieldsView.swift */; };
 		961DA6C327F9FEDA00A47A10 /* PickerWithList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961DA6C227F9FEDA00A47A10 /* PickerWithList.swift */; };
 		961DA6C527FA136500A47A10 /* ReadinTextWithTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961DA6C427FA136500A47A10 /* ReadinTextWithTextField.swift */; };
+		962D364E2959E22100162B0B /* ObservedStateObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962D364D2959E22100162B0B /* ObservedStateObjectView.swift */; };
+		962D36502959E23200162B0B /* Model1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962D364F2959E23200162B0B /* Model1.swift */; };
+		962D3652295ABADE00162B0B /* SampleWithGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962D3651295ABADE00162B0B /* SampleWithGrid.swift */; };
+		962D3655295ABC6500162B0B /* ModelColumns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962D3654295ABC6500162B0B /* ModelColumns.swift */; };
+		962D3658295AC89400162B0B /* UserDefaultsSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962D3657295AC89400162B0B /* UserDefaultsSampleView.swift */; };
+		962D365B295BF2D300162B0B /* AlertSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962D365A295BF2D300162B0B /* AlertSampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +77,12 @@
 		961DA6BF27F9F87F00A47A10 /* TextFieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsView.swift; sourceTree = "<group>"; };
 		961DA6C227F9FEDA00A47A10 /* PickerWithList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerWithList.swift; sourceTree = "<group>"; };
 		961DA6C427FA136500A47A10 /* ReadinTextWithTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadinTextWithTextField.swift; sourceTree = "<group>"; };
+		962D364D2959E22100162B0B /* ObservedStateObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedStateObjectView.swift; sourceTree = "<group>"; };
+		962D364F2959E23200162B0B /* Model1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model1.swift; sourceTree = "<group>"; };
+		962D3651295ABADE00162B0B /* SampleWithGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleWithGrid.swift; sourceTree = "<group>"; };
+		962D3654295ABC6500162B0B /* ModelColumns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelColumns.swift; sourceTree = "<group>"; };
+		962D3657295AC89400162B0B /* UserDefaultsSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsSampleView.swift; sourceTree = "<group>"; };
+		962D365A295BF2D300162B0B /* AlertSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertSampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +216,9 @@
 		961DA6C127F9F88A00A47A10 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				962D3659295BF2BB00162B0B /* alert */,
+				962D3656295AC42800162B0B /* UserDefaults_persistence */,
+				962D364C2959DECA00162B0B /* ObservedObject_And_StateObject */,
 				9609C374294D965500CA0E93 /* Binding */,
 				9609C371294D801C00CA0E93 /* state */,
 				9609C36B294A633B00CA0E93 /* Grids */,
@@ -223,6 +238,41 @@
 				9601B49C2945DE1200C555C6 /* ShowHideKeyboardView.swift */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		962D364C2959DECA00162B0B /* ObservedObject_And_StateObject */ = {
+			isa = PBXGroup;
+			children = (
+				962D3653295ABC3E00162B0B /* sampleWithGridsAndToolbar */,
+				962D364D2959E22100162B0B /* ObservedStateObjectView.swift */,
+				962D364F2959E23200162B0B /* Model1.swift */,
+			);
+			path = ObservedObject_And_StateObject;
+			sourceTree = "<group>";
+		};
+		962D3653295ABC3E00162B0B /* sampleWithGridsAndToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				962D3651295ABADE00162B0B /* SampleWithGrid.swift */,
+				962D3654295ABC6500162B0B /* ModelColumns.swift */,
+			);
+			path = sampleWithGridsAndToolbar;
+			sourceTree = "<group>";
+		};
+		962D3656295AC42800162B0B /* UserDefaults_persistence */ = {
+			isa = PBXGroup;
+			children = (
+				962D3657295AC89400162B0B /* UserDefaultsSampleView.swift */,
+			);
+			path = UserDefaults_persistence;
+			sourceTree = "<group>";
+		};
+		962D3659295BF2BB00162B0B /* alert */ = {
+			isa = PBXGroup;
+			children = (
+				962D365A295BF2D300162B0B /* AlertSampleView.swift */,
+			);
+			path = alert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,6 +348,8 @@
 				961DA6BE27F9DF3000A47A10 /* TapCountView.swift in Sources */,
 				9601B4C029472F5D00C555C6 /* ModalLauncher.swift in Sources */,
 				9609C376294D967B00CA0E93 /* BindingView.swift in Sources */,
+				962D3652295ABADE00162B0B /* SampleWithGrid.swift in Sources */,
+				962D36502959E23200162B0B /* Model1.swift in Sources */,
 				9601B4CB2947A91400C555C6 /* ToolbarSampleView.swift in Sources */,
 				9609C36D294A636800CA0E93 /* GridList.swift in Sources */,
 				961DA6C527FA136500A47A10 /* ReadinTextWithTextField.swift in Sources */,
@@ -308,7 +360,9 @@
 				961DA6B227F9AC4D00A47A10 /* ContentView.swift in Sources */,
 				9609C3622948BB3100CA0E93 /* TabView1stView.swift in Sources */,
 				9609C373294D802B00CA0E93 /* StateSwiftUIView.swift in Sources */,
+				962D364E2959E22100162B0B /* ObservedStateObjectView.swift in Sources */,
 				9601B49D2945DE1200C555C6 /* ShowHideKeyboardView.swift in Sources */,
+				962D3658295AC89400162B0B /* UserDefaultsSampleView.swift in Sources */,
 				9609C36A294A503D00CA0E93 /* DetailsView.swift in Sources */,
 				9601B4C229472F7000C555C6 /* ModalView.swift in Sources */,
 				9609C35C2948B9D700CA0E93 /* TabViewMain.swift in Sources */,
@@ -320,9 +374,11 @@
 				9601B4C429478E1000C555C6 /* NavigationViewMain.swift in Sources */,
 				9601B49B2945485500C555C6 /* CallAndMessageView.swift in Sources */,
 				9601B4D02947C8C800C555C6 /* ToolBar3rdView.swift in Sources */,
+				962D365B295BF2D300162B0B /* AlertSampleView.swift in Sources */,
 				9601B4C7294791DB00C555C6 /* NavigationViewNext.swift in Sources */,
 				961DA6B027F9AC4D00A47A10 /* swiftuiplaygroundApp.swift in Sources */,
 				9601B49929453EA700C555C6 /* ModifierView.swift in Sources */,
+				962D3655295ABC6500162B0B /* ModelColumns.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
