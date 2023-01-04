@@ -43,6 +43,7 @@
 		962D3655295ABC6500162B0B /* ModelColumns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962D3654295ABC6500162B0B /* ModelColumns.swift */; };
 		962D3658295AC89400162B0B /* UserDefaultsSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962D3657295AC89400162B0B /* UserDefaultsSampleView.swift */; };
 		962D365B295BF2D300162B0B /* AlertSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962D365A295BF2D300162B0B /* AlertSampleView.swift */; };
+		962D36ED2965664E00162B0B /* DeviceCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962D36EC2965664E00162B0B /* DeviceCheckView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +84,7 @@
 		962D3654295ABC6500162B0B /* ModelColumns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelColumns.swift; sourceTree = "<group>"; };
 		962D3657295AC89400162B0B /* UserDefaultsSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsSampleView.swift; sourceTree = "<group>"; };
 		962D365A295BF2D300162B0B /* AlertSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertSampleView.swift; sourceTree = "<group>"; };
+		962D36EC2965664E00162B0B /* DeviceCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCheckView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 		961DA6C127F9F88A00A47A10 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				962D36EB2965661000162B0B /* iphone-ipad-detection */,
 				962D3659295BF2BB00162B0B /* alert */,
 				962D3656295AC42800162B0B /* UserDefaults_persistence */,
 				962D364C2959DECA00162B0B /* ObservedObject_And_StateObject */,
@@ -273,6 +276,14 @@
 				962D365A295BF2D300162B0B /* AlertSampleView.swift */,
 			);
 			path = alert;
+			sourceTree = "<group>";
+		};
+		962D36EB2965661000162B0B /* iphone-ipad-detection */ = {
+			isa = PBXGroup;
+			children = (
+				962D36EC2965664E00162B0B /* DeviceCheckView.swift */,
+			);
+			path = "iphone-ipad-detection";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,6 +361,7 @@
 				9609C376294D967B00CA0E93 /* BindingView.swift in Sources */,
 				962D3652295ABADE00162B0B /* SampleWithGrid.swift in Sources */,
 				962D36502959E23200162B0B /* Model1.swift in Sources */,
+				962D36ED2965664E00162B0B /* DeviceCheckView.swift in Sources */,
 				9601B4CB2947A91400C555C6 /* ToolbarSampleView.swift in Sources */,
 				9609C36D294A636800CA0E93 /* GridList.swift in Sources */,
 				961DA6C527FA136500A47A10 /* ReadinTextWithTextField.swift in Sources */,
