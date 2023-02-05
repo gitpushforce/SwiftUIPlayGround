@@ -18,7 +18,6 @@ struct ModifierView: View {
                             .modifier(boton(color: .blue))
                     }
                     
-                    
                     Button(action: {}) {
                         Image(systemName: "message.fill")
                             .modifier(boton(color: .red))

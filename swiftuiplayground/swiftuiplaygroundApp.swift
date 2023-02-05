@@ -18,7 +18,7 @@ struct swiftuiplaygroundApp: App {
     
     var body: some Scene {
         WindowGroup {
-            DeviceCheckView()
+            MapView()
         }.onChange(of: scenePhase) { (phase) in
             switch phase {
                 // app lifecycle

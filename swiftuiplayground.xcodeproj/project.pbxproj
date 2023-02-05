@@ -44,6 +44,7 @@
 		962D3658295AC89400162B0B /* UserDefaultsSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962D3657295AC89400162B0B /* UserDefaultsSampleView.swift */; };
 		962D365B295BF2D300162B0B /* AlertSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962D365A295BF2D300162B0B /* AlertSampleView.swift */; };
 		962D36ED2965664E00162B0B /* DeviceCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962D36EC2965664E00162B0B /* DeviceCheckView.swift */; };
+		969DFC43298FE90800C01AD5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969DFC42298FE90800C01AD5 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,7 @@
 		962D3657295AC89400162B0B /* UserDefaultsSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsSampleView.swift; sourceTree = "<group>"; };
 		962D365A295BF2D300162B0B /* AlertSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertSampleView.swift; sourceTree = "<group>"; };
 		962D36EC2965664E00162B0B /* DeviceCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCheckView.swift; sourceTree = "<group>"; };
+		969DFC42298FE90800C01AD5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 		961DA6C127F9F88A00A47A10 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				969DFC41298FE8E700C01AD5 /* LocationButton */,
 				962D36EB2965661000162B0B /* iphone-ipad-detection */,
 				962D3659295BF2BB00162B0B /* alert */,
 				962D3656295AC42800162B0B /* UserDefaults_persistence */,
@@ -284,6 +287,14 @@
 				962D36EC2965664E00162B0B /* DeviceCheckView.swift */,
 			);
 			path = "iphone-ipad-detection";
+			sourceTree = "<group>";
+		};
+		969DFC41298FE8E700C01AD5 /* LocationButton */ = {
+			isa = PBXGroup;
+			children = (
+				969DFC42298FE90800C01AD5 /* MapView.swift */,
+			);
+			path = LocationButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,6 +392,7 @@
 				961DA6C027F9F87F00A47A10 /* TextFieldsView.swift in Sources */,
 				9609C3602948BA9500CA0E93 /* TabView3rdView.swift in Sources */,
 				9609C36829494F6500CA0E93 /* Model.swift in Sources */,
+				969DFC43298FE90800C01AD5 /* MapView.swift in Sources */,
 				961DA6C327F9FEDA00A47A10 /* PickerWithList.swift in Sources */,
 				9601B4C92947957600C555C6 /* NavigationViewThird.swift in Sources */,
 				9601B4C429478E1000C555C6 /* NavigationViewMain.swift in Sources */,
